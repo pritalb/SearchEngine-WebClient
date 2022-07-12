@@ -18,9 +18,11 @@ function Home() {
 
 
     return (
-        <div>
-            <h1>Search</h1>
-            <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} search={search}/>
+        <div class="homepage">
+            <div class='navbar'>
+                <h1 class='title'>Search</h1>
+                <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} search={search}/>
+            </div>
             <SearchResults results={results} />
         </div>
     )

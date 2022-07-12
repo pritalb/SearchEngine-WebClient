@@ -1,0 +1,36 @@
+.result-container {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: #eae1df;
+    color: #eae1df;
+    width: 65vw;
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 1.25rem;
+}
+
+.result-container:hover {
+    border-color: #917C78;
+    color: #917C78;
+}
+
+.result-container > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.result-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ranking-score-info {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.result-title {
+    font-size: 1.5rem;
+}

@@ -7,7 +7,7 @@ function SearchResults({results}) {
     console.log(resultRanks)
 
     return (
-        <div>
+        <div class='results-section'>
             {
                 resultRanks.map((rank) => (
                     <Result result={results[rank]} />
